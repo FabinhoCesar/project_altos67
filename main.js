@@ -30,8 +30,8 @@ function activateMenuAtCurrentSection(section) {
         menuElement.classList.add('active');
     }
 }
-
 function showNavOnScroll() {
+    navigation = document.getElementById("navigation");
     if (scrollY > 0) {
         navigation.classList.add("scroll");
     } else {
