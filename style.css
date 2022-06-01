@@ -2,7 +2,7 @@
     --hue: 220;
     --brand-green: hsl(212, 100%, 63%);
     --brand-green-ligth: #080708;
-    --brand-green-ligth-02: hsl(96, 16%, 6%);
+    --brand-green-ligth-02: black;
     --brand-green-hover: hsl(170, 100%, 14%);
     --brand-beige: hsl(39, 100%, 97%);
     --gray-headline: rgb(255, 255, 255);
@@ -93,7 +93,7 @@ section header h2 {
 section header h1 {
     color: var(--gray-headline);
     font-size: 3.4rem;
-    line-height: 4.4rem;
+    line-height: 6rem;
     margin-top: 1.6rem;
     text-shadow:  0 0 12px black;
 }
@@ -131,7 +131,8 @@ nav .wrapper {
 }
 
 nav.scroll {
-    background: var(--brand-green);
+    background-color: var(--brand-green);
+    
 }
 
 nav.scroll .logo path {
@@ -271,7 +272,7 @@ body.menu-expanded .menu {
     display: flex;
     flex-direction: column;
     gap: 4.8rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
     font-weight: 700;
     font-size: 2.4rem;
     line-height: 3.1rem;
@@ -281,7 +282,7 @@ body.menu-expanded .menu {
     background: var(--white);
     color: var(--brand-green);
     margin-top: 4.8rem;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .menu .button:hover {
@@ -385,13 +386,13 @@ body.menu-expanded button path {
     margin-bottom: 2rem;
 }
 
-.gallery .photo {
+.gallery .swiper-slide {
     max-width: 100%;
     max-height: 100%;
     padding: 1rem;
 }
 
-.gallery .photo img {
+.gallery .swiper-slide img {
     border-radius: 12px;
     box-shadow: 0 0 10px;
 }
