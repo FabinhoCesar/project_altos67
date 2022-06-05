@@ -534,6 +534,11 @@ footer p {
     color: var(--brand-beige);
     line-height: 2;
     margin-bottom: 3.2rem;
+    font-size: 1.4rem;
+}
+
+footer p a:hover {
+    color: #080708;
 }
 
 #backToTopButton {
@@ -855,6 +860,7 @@ footer p {
 
     footer p {
         margin-bottom: 0;
+
     }
 
     footer .col-a {
